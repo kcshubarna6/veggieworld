@@ -10,12 +10,13 @@
     font-weight: 500;
     font-size: 30px;
 }
-.featured-categories{
+.featured-categories,.bestProductDiv{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .fcategory1{
     background-color: #EF7C8E;
     border-radius: 10px;
@@ -74,4 +75,112 @@
 .filter-buttons.all{
     background-color: #0A5B45;
     color: whitesmoke;
+}
+
+.bestProductPic{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    width: 222px;
+    height: 253px;
+    display: flex;
+}
+
+
+.bestProduct{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    width: 160px;
+    height: 145px;
+    display: flex;
+    padding: 10px;
+    align-self: center;
+    
+}
+.svgElem{
+    padding: 10px;
+    align-self: flex-start;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-right: 4px;
+    
+    
+}
+.bestProductDiv{
+    margin-top: 30px;
+}
+.bestProduct1{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    width: 154px;
+    height: 145px;
+    display: flex;
+    padding: 10px;
+    align-self: center;
+}
+.namePrice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.addToCar{
+    text-decoration: none;
+    color: black;
+    
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.addToCart{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.addToCar:hover{
+    background-color: #0A5B45;
+    color: whitesmoke;
+    transition: 0.45s;
+}
+
+.promotions{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    
+    
+}
+.freeStuff{
+    background-color: #FAE8E0;
+    width: 50%;
+    
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.cashBack{
+    background-color: #B6E2D3;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+}
+.title{
+    display: flex;
+    gap: 20px;
+}
+.textTitle,.offTitle{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.textDescprom,.getButton,.shopButton{
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+.textHeadline{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
 }
