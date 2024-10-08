@@ -1,16 +1,23 @@
 .header-block{
     background-color: #ffffff;
-    position: fixed;
-    right: 0;
-    left: 0;
+    
+   
     display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; /* Set the desired width */
+    max-width: 1200px; /* Optional: Set a max-width for larger screens */
+    
+    
   
 
 }
 
 .header-logo img{
     width: 200px;
+    
+   
+    
     
 }
 .options-flex{
@@ -54,6 +61,7 @@ input{
 .account-logo{
     display: inline-flex;
     align-items: center;
+    margin-top: 9px;
     
 }
 .cart-logo-hyper{
@@ -61,8 +69,33 @@ input{
     align-items: center;
     padding-left: 20px;
     border-left: 2px solid #036242;
+    margin-top: 9px;
     
 
 }
 
 
+@media (max-width: 1238px) {
+    .options-block{
+        display: none;
+    }
+    .header-block{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 855px) {
+   
+    .search-field{
+        display: none;
+    }
+}
+@media (max-width: 528px) {
+   .cart-logo{
+    display: none;
+   }
+   .header-logo img{
+    width: 150px;
+    margin-top: 12px;
+   }
+   
+}

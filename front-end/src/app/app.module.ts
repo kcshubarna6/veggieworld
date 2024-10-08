@@ -8,13 +8,17 @@ import {MaterialModule} from './modules/material-ui.module';
 import {ReactiveFormsModule} from '@angular/forms';
 import {FormsModule} from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
+import { IntroComponent } from './intro/intro.component';
+import { ProductsComponent } from './products/products.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    IntroComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
