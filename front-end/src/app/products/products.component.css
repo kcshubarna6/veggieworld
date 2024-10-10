@@ -184,3 +184,99 @@
     font-size: 40px;
     margin: 0;
 }
+.getBestDeal,.shop-now{
+    text-decoration: none;
+    display: inline-flex;
+    align-content: center;
+    gap: 7px;
+    padding: 18px;
+    color: #F0F0F0;
+    background-color: #0A5B45;
+    border-radius: 50px;
+}
+.getBestDeal:hover,.shop-now:hover{
+    background-color: #1B1B1B;
+    color: #0A5B45;
+    transition: 0.45s;
+}
+.offTitle{
+    background-color: #0A5B45;
+    padding: 4px;
+    border-radius: 3px;
+}
+.popularItemTitle{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+
+.popularProductDiv{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+   
+}
+
+
+.popularProduct{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    width: 160px;
+    height: 145px;
+    display: flex;
+    padding: 10px;
+    align-self: center;
+    
+    
+
+    
+}
+.popularProductPic{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    width: 100%;
+    height: 283px;
+    display: flex;
+    
+   
+   
+}
+
+
+.slidePopularProduct{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+.numberOfSlide{
+    position:absolute;
+    
+}
+.slideLine{
+    flex-grow: 1;
+    
+    border-top: 1px solid black;
+    margin-left: 42px;
+    margin-right: 2px;
+}
+.forward,.backward{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.arrows{
+    display: flex;
+    gap: 8px;
+    
+    justify-content: center;
+}

@@ -10,6 +10,7 @@ import {FormsModule} from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { IntroComponent } from './intro/intro.component';
 import { ProductsComponent } from './products/products.component';
+import { GetStartedComponent } from './get-started/get-started.component';
 
 
 
@@ -18,7 +19,8 @@ import { ProductsComponent } from './products/products.component';
     AppComponent,
     HeaderComponent,
     IntroComponent,
-    ProductsComponent
+    ProductsComponent,
+    GetStartedComponent
   ],
   imports: [
     BrowserModule,
