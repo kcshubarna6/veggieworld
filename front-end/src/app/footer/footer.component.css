@@ -1,0 +1,150 @@
+.customer-satisfaction{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    gap: 10px;
+}
+.free-delivery,.safe-payment,.money-back,.prices-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+
+}
+.svgElem{
+    margin-top: 18px;
+}
+.customer-satisfaction-outer{
+    background-color:#0A5B45 ;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.dTitle{
+    color: white;
+    
+}
+.dSubTitle{
+    color: #B9B7BD;
+}
+.description{
+    border-left: 2px solid white;
+    
+    margin: 30px;
+    padding: 10px;
+}
+.logo img{
+    width: 120px;
+}
+.logo-description{
+    color: #4b4852;
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.footer-block2{
+    display: flex;
+    padding: 10px;
+    gap: 100px;
+
+}
+.get-to-know-us-links ,.for-customers-links,.help-links{
+   display: block;
+   text-decoration: none;
+   color: #4b4852;
+   margin-top: 10px;
+}
+
+.last-footer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+.terms-policies{
+    display: flex;
+    gap: 20px;
+}
+.terms-policies-links{
+    text-decoration: none;
+    color: #4b4852;
+
+}
+.copyright{
+    color: #4b4852;
+
+}
+@media (max-width: 1250px) {
+    .customer-satisfaction{
+        max-width: 800px;
+    }
+    .prices-offers{
+        display: none;
+    }
+     
+  }
+
+  @media (max-width: 875px) {
+    .customer-satisfaction{
+        max-width: 500px;
+    }
+    .safe-payment{
+        display: none;
+    }
+     
+  }
+
+  @media (max-width: 875px) {
+    .customer-satisfaction{
+       flex-direction: column;
+       padding: 30px;
+    }
+    
+     
+  }
+  @media (max-width: 1260px) {
+   .last-footer{
+    padding: 10px;
+   }
+     
+  }
+  @media (max-width: 700px) {
+   .for-customers{
+    display: none;
+   }
+      
+   }
+   @media (max-width: 660px) {
+    .copyright{
+     display: none;
+    }
+    .last-footer{
+        justify-content: center;
+    }
+       
+    }
+    @media (max-width: 500px) {
+        .get-to-know-us{
+         display: none;
+        }
+        
+           
+    }
+
+ 
