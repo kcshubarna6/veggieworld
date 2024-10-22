@@ -1,0 +1,102 @@
+.get-started{
+    background-color:#fbf2c4 ;
+    height: 400px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    
+}
+.banner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    height: 100%;
+    max-width: 1200px;
+    
+    
+    justify-content: space-between;
+    
+}
+.getImage1{
+    width: 200px;
+    height: 177px;
+    
+}
+.description{
+    
+    text-align: center;
+    align-self: center;
+}
+.dTitle{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.dQuestion{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+   
+}
+.shop-now{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    text-decoration: none;
+    background-color: #0A5B45;
+    color: #F0F0F0;
+    padding: 18px;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.shop-now:hover{
+    background-color: #1B1B1B;
+    color: #0A5B45;
+    transition: 0.45s;
+ }
+ 
+ .logo1{
+    align-self: flex-start;
+    margin-top: 20px;
+
+ }
+ .logo2{
+    align-self: flex-end;
+    margin-bottom: 20px;
+
+ }
+ .logo1,.logo2{
+    background-color: #0A5B45;
+    border-radius: 50%;
+    
+ }
+ .getImage1,.getImage2{
+    padding: 30px;
+ }
+ .getImage2{
+    width: 200px;
+    height: 177px;
+ }
+ 
+ 
+ @media (max-width: 795px) {
+   .logo1{
+    display: none;
+   }
+   .logo2{
+    display: none;
+   }
+   .banner{
+    justify-content: center;
+   }
+  
+
+    
+ }

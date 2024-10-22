@@ -5,8 +5,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 90%; /* Set the desired width */
-    max-width: 1200px; /* Optional: Set a max-width for larger screens */
+    width: 90%; 
+    max-width: 1200px; 
     
     
   
@@ -14,7 +14,8 @@
 }
 
 .header-logo img{
-    width: 200px;
+    width: 120px;
+    
     
    
     
@@ -27,12 +28,12 @@
 .options{
    
    
-    margin-top: 35px;
+    margin-top: 55px;
     padding-left: 30px;
 }
 .search-field{
     
-    margin-top: 25px;
+    margin-top: 40px;
     padding-left: 100px;
     position: relative;
     display: flex;
@@ -53,7 +54,7 @@ input{
     font-size: 16px;
 }
 .accountandlogin{
-    margin-top: 25px;
+    margin-top: 40px;
     padding-left: 60px;
     display: flex;
     gap: 25px;
